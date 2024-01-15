@@ -10,4 +10,6 @@ E sua organização é vista da seguinte forma:
 
 <a href="https://imgur.com/j2K0mpl"><img src="https://imgur.com/j2K0mpl.png" title="Organização da UML" /></a>
 
-Atráves dos simbolos de visibilidade conseguimos instruir o 
+Atráves dos simbolos de visibilidade conseguimos definir o acesso dos nossos dados. 
+
+>O Diagrama de classes é uma excelente maneira de documentação dos seus projetos.
