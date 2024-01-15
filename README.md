@@ -1,4 +1,12 @@
+<center>
+<a href="https://imgur.com/nY7r8aF"><img src="https://imgur.com/nY7r8aF.png" title="Logo da Escola Vai Na Web" /></a>
+</center>
+
+<center>
+
 # Bem-Vindo ao Book do Back-End - Escola Vai na Web 🚀
+
+</center>
 
 ## O que é o Back-End?
 
