@@ -95,3 +95,7 @@ public class Main {
 ```
 
 >Frequentemente verão uma **superclasse (Classe Pai)** sendo uma classe **abstract**, já que elas encapsulam conceitos gerais ou comportamentos que devem ser especializados pelas **subclasses (Classes filhas)**
+
+## Link Auxiliar
+- [Classe Abstrata](https://www.alura.com.brapostila-java-orientacao-objetos/classes-abstratas)
+- [Métodos abstratos e mais sobre classes abstratas](https://codegym.cc/pt/groups/posts/pt.192.metodo-abstrato-java-e-classes)
