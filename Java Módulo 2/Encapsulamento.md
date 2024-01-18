@@ -60,10 +60,7 @@ public class Pessoa {
 ```
 Repare que no **Setter** do Atributo **idade** tem uma validação. Claro, não tem como você ter menos de 0 anos.
 
-## Links auxiliares
-- [Encapsulamento](https://www.alura.com.br/artigos/o-que-e-encapsulamento#:~:text=Encapsulamento%20%C3%A9%20um%20princ%C3%ADpo%20de,(normalmente%20m%C3%A9todos%20e%20fun%C3%A7%C3%B5es).)
 
-- [Imutabilidade](https://diogomoreira.gitbook.io/padroes-de-projeto/orientacao-a-objetos/conceitos-basicos-de-orientacao-a-objetos/imutabilidade)
 <div align = "center">
 
 # Imutabilidade 
@@ -103,6 +100,9 @@ Claro que assim como vantagens, algo também possui suas desvantagens. Embora va
 
 - **Custo de criação**: Quando usados extensivamente o custo será o desempenho, principalmente em dispositivos com recurso limitados.
 
+## Links auxiliares
+- [Encapsulamento](https://www.alura.com.br/artigos/o-que-e-encapsulamento#:~:text=Encapsulamento%20%C3%A9%20um%20princ%C3%ADpo%20de,(normalmente%20m%C3%A9todos%20e%20fun%C3%A7%C3%B5es).)
 
+- [Imutabilidade](https://diogomoreira.gitbook.io/padroes-de-projeto/orientacao-a-objetos/conceitos-basicos-de-orientacao-a-objetos/imutabilidade)
 ## The END
 
