@@ -2,11 +2,13 @@
   <img src="./Java%20Módulo%202/assets/VnW.png" alt="Logo do Vai Na Web"/>
 </div>
 
-<center>
+<div align = "center"> 
 
 # Bem-Vindo ao Book do Back-End - Escola Vai na Web 🚀
 
-</center>
+</div>
+
+
 
 ## O que é o Back-End?
 
