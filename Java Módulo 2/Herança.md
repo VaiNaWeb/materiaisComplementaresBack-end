@@ -18,3 +18,7 @@ No UML para a representação gráfica de nossas classes ficaria:
 
 >A herança no UML é simbolizada por uma seta até a **SuperClasse**
 
+
+## Link Auxiliar 
+
+- [Herança ou Composição](https://diogomoreira.gitbook.io/padroes-de-projeto/orientacao-a-objetos/conceitos-basicos-de-orientacao-a-objetos/heranca)
