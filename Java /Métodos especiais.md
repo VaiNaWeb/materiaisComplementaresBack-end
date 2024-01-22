@@ -1,9 +1,9 @@
-#Métodos especiais
+# Métodos especiais
 ---
 Para construir nossas classes precisamos de alguns Métodos especiais
 ___
 
-####Método Construtor
+#### Método Construtor
 
 Para a instanciação de um novo Objeto de uma Classe, precisamos de um método que nos auxilia na construção. O responsável ? Método Construtor
 
@@ -52,10 +52,10 @@ O construtor está definido como **public** para que outras classes acessem e po
 
 ---
 
-###Getters e Setters
+### Getters e Setters
 São métodos GET e SET padronizados para o acesso dos atributos. A partir deles conseguimos acessar (getters) e alterar (setters) os Atributos privados.
 
-#####SET
+##### SET
 É um Método  utilizado para modificar os atributos. Eles são conhecidos como setters. **Abaixo temos um exemplo de declaração do método set do Atributo sabor**
 
 ```
@@ -69,7 +69,7 @@ Dentro do seu corpo temos a palavra reservada **this**, pois o nome da váriavel
 
 >Você cria um set para cada Atributo que será modificado
 
-#####GET
+##### GET
 Os métodos GET servem para ler os dados dos atributos. Eles também são chamados de getters. 
 **Abaixo temos um exemplo de declaração do método get do Atributo sabor**
 ```
@@ -82,18 +82,18 @@ Diferente do **SETTER** ele tem um tipo de retorno ja que ele deve retornar um v
 
 >Se um objeto criado tem o valor do Atributo sabor como "Cenoura", ao chamar o getSabor() vai retornar o valor **Cenoura**.
 
->#####IMPORTANTE: assim como o setter, você cria o getter para retornar os valores desejados.
+>##### IMPORTANTE: assim como o setter, você cria o getter para retornar os valores desejados.
 
 <br/>
 
-#####Como devo usar ?
+##### Como devo usar ?
 1. Caso não queira que um atributo seja modificado, remova o setter daquele atributo
 2. Se não quiser que o atributo seja lido, remova os getters
 3. Os setters permitem a validação dos dados antes de armazená-los, evitando que dados incorretos sejam armazenados
 4. O getter permite esconder o tipo de dado do atributo
 
 
-###Classe Bolo com Atributos, construtores, Getters e Setters
+### Classe Bolo com Atributos, construtores, Getters e Setters
 
 public class Bolo {
 
