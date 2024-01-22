@@ -22,14 +22,14 @@ Então, com esse problema em mente, belas cabecinhas pensaram: "Se os processos 
 
 <br />
 
-##Objetos
+## Objetos
 No nosso mundo, os objetos podem ser animados ou inanimados e  **todos eles possuem caracteristicas(atributos) e comportamentos**
 
 <a href="https://imgur.com/ZxqXvYN"><img src="https://i.imgur.com/ZxqXvYN.png" title="Objetos com certo nível de abstração" /></a>
 
 >Percebam que na imagem acima, os objetos tem um nível de abstração, ou seja, todos tem uma forma genérica.
 
-##E o que são Objetos em programação ? 
+## E o que são Objetos em programação ? 
 
 São instâncias de classes que possuem dados(Atributos) e comportamentos (Métodos). São usados para organizar as informação de uma maneira mais organizada e modular.
 
@@ -37,7 +37,7 @@ São instâncias de classes que possuem dados(Atributos) e comportamentos (Méto
 
 >Em um objeto, seus dados se chamam atributos e as funções são chamadas de métodos
 
-##Classes
+## Classes
 Uma classe pode ser vista como molde de um objeto. Nela estão presentes todos os atributos e métodos essenciais. 
 
 <a href="https://imgur.com/dOr0BB3"><img src="https://imgur.com/dOr0BB3.png" title="Objetos com certo nível de abstração" /></a>
@@ -60,7 +60,7 @@ Vou utilizar como exemplo, a classe Pessoa
 
 Observe na imagem acima que Pessoa tem ações(Métodos) como **andar(), falar() e trabalhar()**.
 <br />
-####IMPORTANTE
+#### IMPORTANTE
 
 | Elemento         | Padrão de Identificação | Exemplo        | Como declarar
 |------------------|-------------------------|----------------|-------------------|
@@ -74,7 +74,7 @@ Observe na imagem acima que Pessoa tem ações(Métodos) como **andar(), falar()
 
 ---
 
-###Modificadores
+### Modificadores
 ---
  Os modificadores são palavras-chave da Linguagem Java, que servem para definir a visibilidade e algumas propriedades de uma Classe, Método ou Atributo.
 
@@ -82,14 +82,14 @@ Observe na imagem acima que Pessoa tem ações(Métodos) como **andar(), falar()
 
  ---
 
-###Modificadores de Visibilidade
+### Modificadores de Visibilidade
 ---
 Modificadores de Visibilidade ou Modificadores de acesso determinam como o Método, Atributo e a própria Classe serão manipulados no decorrer do desenvolvimento do programa, ou seja, qual (is) Classes podem chamar uma determinada Classe, chamar um determinado Método e acessar os Atributos.
 
 Um conceito importante, que interfere diretamente no conceito de visibilidade, é o conceito de Pacotes. 
 
 
-####Modificadores de Acesso - Classes
+####  Modificadores de Acesso - Classes
 As classes possuem apenas 2 modificadores de acesso: 
 
 | **Modificador** | **Descrição**                                                |
@@ -99,7 +99,7 @@ As classes possuem apenas 2 modificadores de acesso:
 
 <br />
 
-####Modificadores de acesso - Métodos e Atributos
+#### Modificadores de acesso - Métodos e Atributos
 
 
  Os métodos e os Atributos possuem 4 modificadores de acesso: 
@@ -130,7 +130,7 @@ O modificador Non-Access permite especificar algumas propriedades específicas d
 
 <br/>
 
-####Modificadores Non-Access - Classes
+#### Modificadores Non-Access - Classes
 
 As classes possuem apenas 2 modificadores Non-Access: 
 
@@ -141,7 +141,7 @@ As classes possuem apenas 2 modificadores Non-Access:
 
 <br />
 
-####Modificadores Non-Access - Métodos
+#### Modificadores Non-Access - Métodos
 Os Métodos possuem 3 modificadores Non-Access principais:
 
 | Modificador  | Descrição                                                    |
@@ -175,7 +175,7 @@ Para se aprofundar mais no conteúdo, sugerimos a leitura da <a href="https://ww
 
 <br />
 
-#Exemplo de uma classe Bolo com seus Atributos e Modificadores de acesso
+# Exemplo de uma classe Bolo com seus Atributos e Modificadores de acesso
 
 
 ```
