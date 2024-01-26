@@ -33,7 +33,8 @@ Mais concretas:
 As coleções fornecem métodos para acessar e iterar sobre seus elementos. O loop *for-each* é frequentemente utilizado para percorrer coleções
 
 Exemplo: 
-```
+
+```Java
 List<String> nomes = new ArrayList<>();
 nomes.add("Samuel");
 nomes.add("João");
@@ -84,7 +85,7 @@ A implementação ArrayList é a escolha natural quando for necessário usar um 
 
 Segue abaixo um exemplo de sua utilização com uma lista de nomes. Eles serão tipas como String **(Lembrando que Collections não aceitam tipos primitivos)**:
 
-```
+```Java
 
 public static void main(String[] args) {
 		List<String> nomes = new ArrayList<>();
@@ -119,7 +120,8 @@ public static void main(String[] args) {
 ```
 
 ### Saída no console
-```
+
+```Java
 Samuel
 João
 Joy
@@ -140,7 +142,7 @@ LinkedList é uma lista duplamente encadeada, o que significa que cada elemento 
 
 <a><img src = "./assets/LinkedList.jpeg"/></a>
 
-```
+```Java
 
 // Criando uma lista encadeada
         List<String> nomes = new LinkedList<>();
@@ -179,7 +181,7 @@ LinkedList é uma lista duplamente encadeada, o que significa que cada elemento 
 ```
 ### Saída no console
 
-```
+```Java
 Lista original: [Samuel, João, Joy, Dandara]
 Elemento na posição 2: João
 --------------------------------------------------------
@@ -226,7 +228,7 @@ Repreenta uma coleção que não permite elementos duplicados, ou seja, muito ut
 | TreeSet | Implementação baseada em árvores, mantendo a ordem dos elementos (com base em comparação ou ordenação natural). |
 |LinkedHashSet| Implementação que mantém a ordem de inserção dos elementos.|
 
-```
+```Java
 
 // Criando um conjunto (HashSet neste caso)
         Set<String> conjuntoNomes = new HashSet<>();
@@ -257,7 +259,8 @@ Repreenta uma coleção que não permite elementos duplicados, ou seja, muito ut
         System.out.println("Conjunto após remover 'João': " + conjuntoNomes);
 ```
 ## Saída no console
-```
+
+```Java
 
 Conjunto de Nomes: [Samuel, João, Dandara, Joy]
 Conjunto após tentativa de adição duplicada: [Samuel, João, Dandara, Joy]
@@ -299,7 +302,7 @@ Conjunto após remover 'João': [Samuel, Dandara, Joy]
 |LinkedHashMap|Implementação que mantém a ordem de inserção das chaves.|
 
 
-```
+```Java
    // Criando um mapa (HashMap neste caso)
         Map<String, Integer> mapaIdades = new HashMap<>();
 
@@ -327,7 +330,7 @@ Conjunto após remover 'João': [Samuel, Dandara, Joy]
 ```
 ## Saída do console
 
-```
+```Java
 Mapa de Idades: {Samuel=30, João=25, Joy=28}
 Idade de João: 25
 Contém 'Joy': true
