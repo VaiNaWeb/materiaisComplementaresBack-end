@@ -49,6 +49,10 @@ for(String elemento: lista){
 ## Interface List
 É uma extensão (herdando) da interface Collection. Como caracteristica tem os elementos ordenados como uma sequência. A interface é como uma array de tamanho varíavel, pois tem total controle sobre elementos inseridos nas lista, já que em sua utilização podemos acessar um determinado elemento através dos índices. 
 
+<a><img src = "./assets/List.jpeg"/></a>
+
+>Fazendo uma analogia a blocos de montar
+
 ## Principais Caracteristicas: 
 | |  |
 |----------|----------|
@@ -75,6 +79,11 @@ for(String elemento: lista){
 
 
 ## Array List
+
+A implementação ArrayList é a escolha natural quando for necessário usar um vetor redimensionável, que é muito mais eficiente para leitura, por ser implementado internamente com vetores, o que a torna ideal para o acesso aleatório aos dados armazenados.
+
+Segue abaixo um exemplo de sua utilização com uma lista de nomes. Eles serão tipas como String **(Lembrando que Collections não aceitam tipos primitivos)**:
+
 ```
 
 public static void main(String[] args) {
@@ -123,10 +132,13 @@ João
 3
 
 ```
-
+>Como um ArrayList armazena os dados. Notem que tem uma grande semelhança com os vetores
+<a><img src = "./assets/ArmazenamentoAL.jpg"/></a>
 
 ## Linked List
+LinkedList é uma lista duplamente encadeada, o que significa que cada elemento na lista é representado por um nó que contém uma referência para o próximo e o anterior na sequência.
 
+<a><img src = "./assets/LinkedList.jpeg"/></a>
 
 ```
 
@@ -183,7 +195,7 @@ Joy
 Dandara
 
 ```
-
+>Como a implementação LinkedList armazena seus dados
 <br>
 
 ## Interface SET
