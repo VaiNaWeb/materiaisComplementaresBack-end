@@ -200,6 +200,45 @@ Dandara
 >Como a implementação LinkedList armazena seus dados
 <br>
 
+---
+## Interface Queue
+A interface **Queue (Fila) é uma extensão (herança) da Interface Collection.** Queue é a implementação da Estrutura de Dados conhecida como fila, onde "**O primeiro elemento adicionado, será primeiro elemento a ser retirado da fila" (FIFO - First in, First out)**.
+
+
+<a><img src = "./assets/Queue.jpeg"/></a>
+>Analogia com blocos de montar
+
+No mundo real essa estrutura de dados pode ser representada como a fila de um banco. O primeiro a chegar é o primeiro a ser atendido (sair).
+### Métodos 
+| Método             | Descrição                                                                   |
+|--------------------|-----------------------------------------------------------------------------|
+| `add(element)`     | Adiciona um elemento à fila.                                                |
+| `offer(element)`   | Adiciona um elemento à fila. Retorna `true` se bem-sucedido, `false` caso contrário. |
+| `remove()`         | Remove e retorna o elemento na frente da fila. Gera uma exceção se a fila estiver vazia. |
+| `poll()`           | Remove e retorna o elemento na frente da fila. Retorna `null` se a fila estiver vazia. |
+| `element()`        | Retorna o elemento na frente da fila sem removê-lo. Gera uma exceção se a fila estiver vazia. |
+| `peek()`           | Retorna o elemento na frente da fila sem removê-lo. Retorna `null` se a fila estiver vazia. |
+
+
+---
+
+## Stack
+
+A implementação de Stack implementa a estrutura de dados chamada pulha. Uma pilha tem a estrutura de tipo LIFO: " O ultimo elemento a ser inserido é o primeiro a ser retirado (Last in - First Out)
+
+<a><img src = "./assets/Stack.jpeg"/></a>
+>Analogia com blocos de montar
+
+### Métodos
+| Método               | Descrição                                                            |
+|----------------------|----------------------------------------------------------------------|
+| `push(element)`      | Adiciona um elemento ao topo da pilha.                                |
+| `pop()`              | Remove e retorna o elemento no topo da pilha. Gera exceção se a pilha estiver vazia. |
+| `peek()`             | Retorna o elemento no topo da pilha sem removê-lo. Retorna `null` se a pilha estiver vazia. |
+| `empty()`            | Verifica se a pilha está vazia. Retorna `true` se estiver vazia, `false` caso contrário. |
+| `search(element)`    | Retorna a posição (índice baseado em 1) do elemento na pilha. Retorna `-1` se o elemento não estiver presente. |
+
+---
 ## Interface SET
 Repreenta uma coleção que não permite elementos duplicados, ou seja, muito utilizado quando o programador não quer que seu programa tenha elementos duplicados
 
