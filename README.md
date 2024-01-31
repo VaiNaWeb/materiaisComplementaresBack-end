@@ -1,10 +1,46 @@
+ <div align="center">
+  <img alt="Badge Status" src="https://img.shields.io/badge/status%20-Em construção...-1abc9c.svg" />
+ </div>
+
+ <br>
+
+  <div align="center">
+  <b>Tecnologias: </b>
+ </div>
+
+   <!-- <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/> -->
+
+<div style="display:flex; justify-content:center; gap: 10px" >
+
+  <div>
+
+   ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+
+   </div>
+
+   <div>
+    
+   ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+   </div>
+
+   <div>
+
+![SQL](https://img.shields.io/badge/sql-%2300f.svg?style=for-the-badge&logo=sql&logoColor=white)
+
+   </div>
+
+</div>
+
 # Repositório de Materiais Complementares - Curso de Back-end do Vai na Web
 
 Bem-vindes ao repositório oficial de materiais complementares do curso de Back-end Vai na Web! Aqui você encontrará recursos adicionais, exemplos práticos, e informações complementares para aprimorar sua jornada de aprendizado no desenvolvimento Back-end.
 
 # Estrutura do Repositório 🗃
+
 O repositório está organizado em pastas **por tema**, facilitando a navegação e localização dos materiais desejados:
-  ####  📂 MOD2
+
+#### 📂 MOD2
+
      📂 JAVA
         - 📑tema - explicações da aula
         - 📑exercicioTema - Exercício para prática
