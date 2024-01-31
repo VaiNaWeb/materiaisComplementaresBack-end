@@ -4,13 +4,13 @@
 
  <br>
 
-  <div align="center">
-  <b>Tecnologias: </b>
- </div>
+
+  <h3>Tecnologias: </h3>
+
 
    <!-- <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/> -->
 
-<div style="display:flex; justify-content:center; gap: 10px; width:500px;" >
+<div style="display:flex; justify-content:center; gap: 10px; width:100vw;" >
 
 
 
@@ -28,6 +28,8 @@
    </div>
 
 </div>
+
+---
 
 # Repositório de Materiais Complementares - Curso de Back-end do Vai na Web
 
